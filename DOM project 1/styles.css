@@ -1,0 +1,55 @@
+:root{
+	--actv: #04AA6D; /* Add a green color to the "active/current" link */
+	--lght-gray: #eee; /* Grey background color */
+	--drk-gray: #ccc; /* Dark grey background on mouse-over */
+	--drpdwn-icon: #b3b3b3; /* Darker Grey background color */
+}
+/* General body styling */
+body {
+  margin: 2em;
+}
+/* Sidebar container */
+.sidebar {
+  width: 20em;
+  border: 1px solid #f2f2f2;
+}
+/* Menu item spacing */
+.menu-item {
+  margin-bottom: 2px;
+}
+/* Style for each menu title */
+.menu-title {
+  cursor: pointer;
+  font-weight: 600;
+  padding: 10px;
+  background-color: var(--lght-gray);
+  position: relative;
+}
+.menu-title:hover, li:hover{
+	background-color: var(--drk-gray);
+}
+/* Icon on the right side */
+.icon {
+  float: right;
+  color: var(--drpdwn-icon);
+}
+/* Submenu hidden by default */
+.submenu {
+  display: none;
+  list-style: none;
+  padding-left: 20px;
+  margin-top: 5px;
+}
+/* Show submenu when active */
+.submenu.show {
+  display: block;
+}
+/* Submenu items */
+.submenu li {
+  padding: 5px 0 5px 5px;
+  color: #262626;
+}
+.active{
+	color: white;
+	background-color: var(--actv);
+}
