@@ -24,9 +24,6 @@ DOM project 1/
 - When clicked, the related `.submenu` is toggled using `.classList.toggle("active")`.
 - The icon (▼/▲) is updated based on the current state using `textContent`.
 
-## Live Preview
-
-> You can host this project using GitHub Pages or CodePen to try it live.
 
 ## How to Use
 
